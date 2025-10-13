@@ -4,5 +4,17 @@ console.log(userName);
 console.log(age);
 console.log(job);
 
+/*
+let asdf = {a: 'bober', b: 99, job: 'ja pierdole!'};
+asdf.forEach(function(asdf){
+    console.log(asdf);
+})*/
 
-const asdf = {a: 'coke', b: };
+let array = ['bober', 'kurwa', 'ja pierdole!'];
+array.forEach(function(words){
+    console.log(words);
+})
+
+array.forEach((words) => {
+    console.log(words);
+})
