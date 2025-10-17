@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 (async () => {
     try{
         const result = await axios.post('https://www.zerocho.com/api/post/json', {
@@ -10,3 +12,4 @@
         console.error(error);
     }
 })();
+
