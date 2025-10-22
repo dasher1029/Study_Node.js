@@ -6,3 +6,5 @@ const writeStream = fs.createWriteStream('helloworld.txt');
 readStream.pipe(writeStream);
 
 //hello? 
+
+console.log('this is conflict');
